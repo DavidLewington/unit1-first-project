@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/london-bg.jpeg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -72,10 +72,12 @@ header .profile-image {
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
+  
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.4) rotate(10deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -86,7 +88,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
 .card {
   margin: 30px;
@@ -117,7 +119,7 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #000000;
 }
 
 footer {
